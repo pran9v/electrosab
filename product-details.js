@@ -80,7 +80,7 @@ function switchTab(tabId, tabButton) {
 
 // Navigation Functions
 function goToThankYou(productId) {
-    window.location.href = `thank-you.html?id=${productId}`;
+    window.location.href = `CheckOut.html`;
 }
 
 function goToHome() {
