@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> About Us</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="nav-content">
+        <div class="logo">
+          <a href="index.html" class="logo-link">electrosab</a>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="desktop-menu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="Contact-us.html" class="nav-link">Contact Us</a>
+          <a href="Privacy-Policy.html" class="nav-link">Privacy Policy</a>
+          <a href="Terms.html" class="nav-link">Terms</a>
+          <a href="CheckOut.html" class="nav-link">Checkout</a>
+        </div>
+
+        <!-- Desktop CTA -->
+        <div class="desktop-cta">
+          <a href="About-us.html" class="nav-link">About</a>
+          <a href="index.html#new-arrivals" class="shop-btn btn btn-primary">Shop Now</a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="mobile-menu-btn ">
+          <button id="menuToggle">
+            <svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="4" y1="12" x2="20" y2="12"></line>
+              <line x1="4" y1="6" x2="20" y2="6"></line>
+              <line x1="4" y1="18" x2="20" y2="18"></line>
+            </svg>
+            <svg id="closeIcon" class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M18 6 6 18"></path>
+              <path d="m6 6 12 12"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu hidden">
+      <a href="index.html" class="mobile-link">Home</a>
+      <a href="Contact-us.html" class="mobile-link">Contact US</a>
+      <a href="Privacy-Policy.html" class="mobile-link">Privacy Policy</a>
+      <a href="Terms.html" class="mobile-link">Terms</a>
+      <a href="CheckOut.html" class="mobile-link">CheckOut</a>
+      <a href="About-us.html" class="mobile-link">About Us</a>
+
+    </div>
+  </nav>
+
+  <div class="min-h-screen bg-white">
+    <!-- Hero Section -->
+    <section class="welcome-banner">
+      <div class="welcome-banner-background"></div>
+      <div class="welcome-banner-text">
+        <h1 class="welcome-banner-heading">About Us</h1>
+        <p class="welcome-banner-description">Discover the story behind our commitment to bringing you the finest in
+          fashion and style</p>
+      </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="brand-story" id="story">
+      <div class="page-wrapper">
+        <div class="brand-story-layout">
+          <div class="brand-story-image-container">
+            <img
+              src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Our Story" class="brand-story-visual">
+          </div>
+          <div class="brand-story-content">
+            <h2 class="brand-story-content-heading">Our Story</h2>
+            <p class="brand-story-content-text">Established in 2012, ElectroSab was born from an engineer's vision to
+              revolutionize industrial power solutions. What began as a specialized workshop serving local manufacturers
+              has grown into a trusted global supplier of premium electrical systems. Our founder's commitment to
+              bridging the gap between cutting-edge technology and practical application continues to drive our
+              innovation.</p>
+            <p class="brand-story-content-text">Over the past decade, we've powered progress through relentless R&D
+              investment and strategic partnerships with leading technology providers. Every product in our inventory
+              undergoes rigorous testing to meet international safety standards (IEC/UL/CSA) and deliver peak
+              performance. We've evolved from circuit breakers to smart grid solutions, always maintaining our core
+              focus: empowering industries with reliable, energy-efficient systems that drive operational excellence and
+              sustainable growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="company-values">
+      <div class="page-wrapper">
+        <h2 class="company-values-heading">Our Core Principles</h2>
+        <div class="company-values-grid">
+          <div class="value-feature">
+            <div class="value-feature-icon-wrapper">
+              <svg class="value-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                <path d="M12 8v4" />
+                <path d="M12 16h.01" />
+              </svg>
+            </div>
+            <h3 class="value-feature-heading">Safety First</h3>
+            <p class="value-feature-description">We prioritize rigorous safety standards in every product we supply,
+              ensuring complete compliance with international electrical regulations and certifications.</p>
+          </div>
+
+          <div class="value-feature">
+            <div class="value-feature-icon-wrapper">
+              <svg class="value-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+            </div>
+            <h3 class="value-feature-heading">Technical Innovation</h3>
+            <p class="value-feature-description">We stay ahead of industry trends, offering cutting-edge electrical
+              solutions that combine energy efficiency with advanced technological performance.</p>
+          </div>
+
+          <div class="value-feature">
+            <div class="value-feature-icon-wrapper">
+              <svg class="value-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M16 8h-6a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h6" />
+              </svg>
+            </div>
+            <h3 class="value-feature-heading">Expert Support</h3>
+            <p class="value-feature-description">Our certified electrical engineers provide 24/7 technical assistance,
+              from product selection to installation guidance and maintenance support.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team Section -->
+    <section class="team-showcase">
+      <div class="page-wrapper">
+        <h2 class="team-showcase-heading">Meet Our Team</h2>
+        <div class="team-members-grid" id="teamGrid">
+          <!-- Team members will be dynamically inserted here -->
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="elegant-footer">
+    <!-- Newsletter Section -->
+
+
+    <!-- Brand Section -->
+    <section class="brand-section">
+      <div class="brand-logo">
+        <i data-lucide="shopping-bag" class="brand-icon"></i>
+        <h2 class="brand-name">electrosab</h2>
+      </div>
+      <p class="brand-tagline">Electrify Progress, Engineer Excellence</p>
+    </section>
+
+    <!-- Main Footer Content -->
+    <section class="footer-content">
+      <div class="footer-grid">
+        <!-- About Section -->
+        <div class="footer-column">
+          <h4 class="column-title">About Electrosab</h4>
+          <p class="column-text">
+            ElectroSab provides top-tier electrical equipment built for performance, safety, and longevity. From
+            advanced power solutions to innovative electrical components, we deliver excellence for every application.
+          </p>
+          <div class="social-links4">
+            <a href="https://www.facebook.com" target="_blank" class="social-link4">
+              <i data-lucide="facebook" class="social-icon"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-link4">
+              <i data-lucide="twitter" class="social-icon"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-link4">
+              <i data-lucide="instagram" class="social-icon"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="social-link4">
+              <i data-lucide="youtube" class="social-icon"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h4 class="column-title">Quick Links</h4>
+          <ul class="quick-links">
+            <li class="quick-links-item">
+              <a href="index.html#new-arrivals" new-arrivals class="quick-link">New Arrivals</a>
+            </li>
+            <li class="quick-links-item">
+              <a href="About-us.html" class="quick-link">About Us</a>
+            </li>
+            <li class="quick-links-item">
+              <a href="About-us.html#story" class="quick-link">Our Story</a>
+            </li>
+            <li class="quick-links-item">
+              <a href="index.html#testimonialsss" class="quick-link">Testimonials</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-column">
+          <h4 class="column-title">Contact Us</h4>
+          <div class="contact-list">
+            <div class="contact-item">
+              <i data-lucide="map-pin" class="contact-icon"></i>
+              <span>Suite 571 38268 Alonso Prairie, Adaborough</span>
+            </div>
+            <div class="contact-item">
+              <i data-lucide="phone" class="contact-icon"></i>
+              <span>247-324-0710</span>
+            </div>
+            <div class="contact-item">
+              <i data-lucide="mail" class="contact-icon"></i>
+              <span>connect@electrosab.com</span>
+            </div>
+            <div class="contact-item">
+              <i data-lucide="clock" class="contact-icon"></i>
+              <span>Mon - Sun: 10AM - 9PM</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Bottom Bar -->
+    <section class="footer-bottom">
+      <div class="bottom-content">
+        <p class="copyright-text">
+          © 2025 electrosab. All rights reserved.
+        </p>
+        <div class="bottom-links">
+          <a href="Privacy-Policy.html" class="bottom-link">Privacy Policy</a>
+          <a href="Terms.html" class="bottom-link">Terms of Service</a>
+          <a href="Contact-us.html" class="bottom-link">Contact Us</a>
+          <a href="About-us.html" class="bottom-link">About Us</a>
+        </div>
+      </div>
+    </section>
+  </footer>
+  </div>
+  <script>
+    lucide.createIcons(); 
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
